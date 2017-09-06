@@ -348,28 +348,28 @@
             <Parameter>
                 <Name>shading1_depth</Name>
                 <Text>Shading Depth</Text>
-                <Value>50</Value>
+                <Value>100</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading1_b</Name>
                 <Text>b</Text>
-                <Value>60</Value>
+                <Value>100</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading1_thickness</Name>
                 <Text>Shading Thickness</Text>
-                <Value>50</Value>
+                <Value>200</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading1_length</Name>
                 <Text>Shading Length</Text>
-                <Value>30</Value>
+                <Value>1200</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
@@ -383,28 +383,28 @@
             <Parameter>
                 <Name>shading2_depth</Name>
                 <Text>Shading Depth</Text>
-                <Value>50</Value>
+                <Value>100</Value>
                 <ValueType>Length</ValueType>
                 <Enable>lower_shading_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading2_b</Name>
                 <Text>b</Text>
-                <Value>60</Value>
+                <Value>100</Value>
                 <ValueType>Length</ValueType>
                 <Enable>lower_shading_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading2_thickness</Name>
                 <Text>Shading Thickness</Text>
-                <Value>50</Value>
+                <Value>200</Value>
                 <ValueType>Length</ValueType>
                 <Enable>lower_shading_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading2_length</Name>
                 <Text>Shading Length</Text>
-                <Value>30</Value>
+                <Value>1200</Value>
                 <ValueType>Length</ValueType>
                 <Enable>lower_shading_active == True</Enable>
             </Parameter>
