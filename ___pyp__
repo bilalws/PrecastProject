@@ -363,14 +363,14 @@
             <Parameter>
                 <Name>type3_depth1</Name>
                 <Text>Depth1</Text>
-                <Value>30</Value>
+                <Value>50</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join3_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type3_depth2</Name>
                 <Text>Depth2</Text>
-                <Value>20</Value>
+                <Value>30</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join3_type_active == True</Enable>
             </Parameter>
@@ -395,13 +395,6 @@
             </Parameter>
 
             <Parameter>
-                <Name>type4_length</Name>
-                <Text>Length</Text>
-                <Value>3500</Value>
-                <ValueType>Length</ValueType>
-                <Enable>join4_type_active == True</Enable>
-            </Parameter>
-            <Parameter>
                 <Name>type4_height</Name>
                 <Text>Height</Text>
                 <Value>60</Value>
@@ -411,14 +404,14 @@
             <Parameter>
                 <Name>type4_depth1</Name>
                 <Text>Depth1</Text>
-                <Value>30</Value>
+                <Value>50</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type4_depth2</Name>
                 <Text>Depth2</Text>
-                <Value>20</Value>
+                <Value>30</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
