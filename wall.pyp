@@ -516,14 +516,14 @@
             <Parameter>
                 <Name>shading_back_l1</Name>
                 <Text>Shading Back Length 1</Text>
-                <Value>1200</Value>
+                <Value>3800</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading_back_l2</Name>
                 <Text>Shading Back Length 2</Text>
-                <Value>800</Value>
+                <Value>3500</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
