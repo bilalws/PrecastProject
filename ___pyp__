@@ -349,7 +349,7 @@
             <Parameter>
                 <Name>type3_length</Name>
                 <Text>Length</Text>
-                <Value>3000</Value>
+                <Value>3500</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join3_type_active == True</Enable>
             </Parameter>
@@ -397,7 +397,7 @@
             <Parameter>
                 <Name>type4_length</Name>
                 <Text>Length</Text>
-                <Value>3000</Value>
+                <Value>3500</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
@@ -406,7 +406,7 @@
                 <Text>Height</Text>
                 <Value>60</Value>
                 <ValueType>Length</ValueType>
-                <Enable>jjoin4_type_active == True</Enable>
+                <Enable>join4_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type4_depth1</Name>
@@ -432,7 +432,7 @@
         <Name>Page3</Name>
         <Text>Shading</Text>
     <Parameter>
-            <Parameter>
+        <Parameter>
             <Name>Expander2</Name>
             <Text>Shading</Text>
             <ValueType>Expander</ValueType>
@@ -548,7 +548,7 @@
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
-    </Parameter>
+        </Parameter>
     </Parameter>
 
     </Page>
