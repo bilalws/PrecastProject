@@ -325,6 +325,104 @@
                 <ValueType>Length</ValueType>
                 <Enable>join2_type_active == True</Enable>
             </Parameter>
+
+            <Parameter>
+                <Name>join3_type_active</Name>
+                <Text>Adding Upper Join</Text>
+                <Value>False</Value>
+                <ValueType>CheckBox</ValueType>
+            </Parameter>
+
+            <Parameter>
+                <Name>join3_type</Name>
+                <Text>Upper Join Type</Text>
+                <!-- selected value -->
+                <Value>1</Value>
+                <!-- list of possible values -->
+                <ValueList>1|2|3</ValueList>
+                <!-- list of picture file names -->
+                <ValueList2>param01.png|param02.png|param03.png</ValueList2>
+                <ValueType>PictureButtonList</ValueType>
+                <Enable>join3_type_active == True</Enable>
+            </Parameter>
+
+            <Parameter>
+                <Name>type3_length</Name>
+                <Text>Length</Text>
+                <Value>3000</Value>
+                <ValueType>Length</ValueType>
+                <Enable>join3_type_active == True</Enable>
+            </Parameter>
+            <Parameter>
+                <Name>type3_height</Name>
+                <Text>Height</Text>
+                <Value>60</Value>
+                <ValueType>Length</ValueType>
+                <Enable>join3_type_active == True</Enable>
+            </Parameter>
+            <Parameter>
+                <Name>type3_depth1</Name>
+                <Text>Depth1</Text>
+                <Value>30</Value>
+                <ValueType>Length</ValueType>
+                <Enable>join3_type_active == True</Enable>
+            </Parameter>
+            <Parameter>
+                <Name>type3_depth2</Name>
+                <Text>Depth2</Text>
+                <Value>20</Value>
+                <ValueType>Length</ValueType>
+                <Enable>join3_type_active == True</Enable>
+            </Parameter>
+
+            <Parameter>
+                <Name>join4_type_active</Name>
+                <Text>Adding Lower Join</Text>
+                <Value>False</Value>
+                <ValueType>CheckBox</ValueType>
+            </Parameter>
+            <Parameter>
+                <Name>join4_type</Name>
+                <Text>Lower Join Type</Text>
+                <!-- selected value -->
+                <Value>1</Value>
+                <!-- list of possible values -->
+                <ValueList>1|2|3</ValueList>
+                <!-- list of picture file names -->
+                <ValueList2>param01.png|param02.png|param03.png</ValueList2>
+                <ValueType>PictureButtonList</ValueType>
+                <Enable>join4_type_active == True</Enable>
+            </Parameter>
+
+            <Parameter>
+                <Name>type4_length</Name>
+                <Text>Length</Text>
+                <Value>3000</Value>
+                <ValueType>Length</ValueType>
+                <Enable>join4_type_active == True</Enable>
+            </Parameter>
+            <Parameter>
+                <Name>type4_height</Name>
+                <Text>Height</Text>
+                <Value>60</Value>
+                <ValueType>Length</ValueType>
+                <Enable>jjoin4_type_active == True</Enable>
+            </Parameter>
+            <Parameter>
+                <Name>type4_depth1</Name>
+                <Text>Depth1</Text>
+                <Value>30</Value>
+                <ValueType>Length</ValueType>
+                <Enable>join4_type_active == True</Enable>
+            </Parameter>
+            <Parameter>
+                <Name>type4_depth2</Name>
+                <Text>Depth2</Text>
+                <Value>20</Value>
+                <ValueType>Length</ValueType>
+                <Enable>join4_type_active == True</Enable>
+            </Parameter>
+
     </Parameter>
     </Parameter>
 
@@ -407,6 +505,48 @@
                 <Value>1200</Value>
                 <ValueType>Length</ValueType>
                 <Enable>lower_shading_active == True</Enable>
+            </Parameter>
+
+            <Parameter>
+                <Name>upper_shading_back_active</Name>
+                <Text>Adding Upper Shading Back</Text>
+                <Value>False</Value>
+                <ValueType>CheckBox</ValueType>
+            </Parameter>
+            <Parameter>
+                <Name>shading_back_depth</Name>
+                <Text>Shading Back Depth</Text>
+                <Value>100</Value>
+                <ValueType>Length</ValueType>
+                <Enable>upper_shading_back_active == True</Enable>
+            </Parameter>
+            <Parameter>
+                <Name>shading_back_l1</Name>
+                <Text>Shading Back Length 1</Text>
+                <Value>1200</Value>
+                <ValueType>Length</ValueType>
+                <Enable>upper_shading_back_active == True</Enable>
+            </Parameter>
+            <Parameter>
+                <Name>shading_back_l2</Name>
+                <Text>Shading Back Length 2</Text>
+                <Value>800</Value>
+                <ValueType>Length</ValueType>
+                <Enable>upper_shading_back_active == True</Enable>
+            </Parameter>
+            <Parameter>
+                <Name>shading_back_h1</Name>
+                <Text>hading Back Height 1</Text>
+                <Value>50</Value>
+                <ValueType>Length</ValueType>
+                <Enable>upper_shading_back_active == True</Enable>
+            </Parameter>
+            <Parameter>
+                <Name>shading_back_h2</Name>
+                <Text>hading Back Height 2</Text>
+                <Value>100</Value>
+                <ValueType>Length</ValueType>
+                <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
     </Parameter>
     </Parameter>
