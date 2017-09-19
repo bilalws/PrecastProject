@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Element>
     <Script>
-        <Name>PrecastProjectScripts\wall.py</Name>
-        <Title>wall</Title>
+        <Name>PrecastProjectScripts\wall2.py</Name>
+        <Title>wall2</Title>
         <Version>1.0</Version>
     </Script>
     <Page>

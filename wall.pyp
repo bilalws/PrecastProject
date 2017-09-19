@@ -509,7 +509,7 @@
             <Parameter>
                 <Name>shading_back_depth</Name>
                 <Text>Shading Back Depth</Text>
-                <Value>100</Value>
+                <Value>50</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
@@ -523,7 +523,7 @@
             <Parameter>
                 <Name>shading_back_l2</Name>
                 <Text>Shading Back Length 2</Text>
-                <Value>3500</Value>
+                <Value>3200</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
