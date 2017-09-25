@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Element>
     <Script>
-        <Name>PrecastProjectScripts\wall2.py</Name>
-        <Title>wall2</Title>
+        <Name>PrecastProjectScripts\wall3.py</Name>
+        <Title>wall3</Title>
         <Version>1.0</Version>
     </Script>
     <Page>
@@ -23,7 +23,7 @@
     <Parameter>
             <Name>Length1_1</Name>
             <Text>Wall Length</Text>
-            <Value>3140</Value>
+            <Value>1930</Value>
             <ValueType>Length</ValueType>
     </Parameter>
     <Parameter>
@@ -58,7 +58,7 @@
     <Parameter>
             <Name>Thickness1_1</Name>
             <Text>Wall Thickness</Text>
-            <Value>120</Value>
+            <Value>100</Value>
             <ValueType>Length</ValueType>
     </Parameter>
 	
@@ -94,7 +94,7 @@
             <Parameter>
                 <Name>win_x</Name>
                 <Text>Reference Widows from Wall Edge</Text>
-                <Value>340</Value>
+                <Value>500</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -129,7 +129,7 @@
             <Parameter>
                 <Name>win_length</Name>
                 <Text>Window Width</Text>
-                <Value>2800</Value>
+                <Value>1100</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -146,7 +146,7 @@
             <Parameter>
                 <Name>win_width</Name>
                 <Text>Window Height</Text>
-                <Value>1250</Value>
+                <Value>1200</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -329,7 +329,7 @@
             <Parameter>
                 <Name>join3_type_active</Name>
                 <Text>Adding Upper Join</Text>
-                <Value>True</Value>
+                <Value>False</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
 
@@ -356,21 +356,21 @@
             <Parameter>
                 <Name>type3_height</Name>
                 <Text>Height</Text>
-                <Value>50</Value>
+                <Value>60</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join3_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type3_depth1</Name>
                 <Text>Depth1</Text>
-                <Value>60</Value>
+                <Value>50</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join3_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type3_depth2</Name>
                 <Text>Depth2</Text>
-                <Value>50</Value>
+                <Value>30</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join3_type_active == True</Enable>
             </Parameter>
@@ -397,21 +397,21 @@
             <Parameter>
                 <Name>type4_height</Name>
                 <Text>Height</Text>
-                <Value>50</Value>
+                <Value>20</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type4_depth1</Name>
                 <Text>Depth1</Text>
-                <Value>70</Value>
+                <Value>50</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type4_depth2</Name>
                 <Text>Depth2</Text>
-                <Value>60</Value>
+                <Value>20</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
@@ -433,7 +433,7 @@
             <Parameter>
                 <Name>upper_shading_active</Name>
                 <Text>Adding Upper Shading</Text>
-                <Value>True</Value>
+                <Value>False</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
             <Parameter>
@@ -460,7 +460,7 @@
             <Parameter>
                 <Name>shading1_length</Name>
                 <Text>Shading Length</Text>
-                <Value>1200</Value>
+                <Value>1300</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
@@ -468,7 +468,7 @@
             <Parameter>
                 <Name>lower_shading_active</Name>
                 <Text>Adding Lower Shading</Text>
-                <Value>True</Value>
+                <Value>False</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
             <Parameter>
@@ -509,21 +509,21 @@
             <Parameter>
                 <Name>shading_back_depth</Name>
                 <Text>Shading Back Depth</Text>
-                <Value>130</Value>
+                <Value>150</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading_back_l1</Name>
                 <Text>Shading Back Length 1</Text>
-                <Value>3800</Value>
+                <Value>1440</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading_back_l2</Name>
                 <Text>Shading Back Length 2</Text>
-                <Value>2190</Value>
+                <Value>420</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>

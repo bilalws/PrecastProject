@@ -23,7 +23,7 @@
     <Parameter>
             <Name>Length1_1</Name>
             <Text>Wall Length</Text>
-            <Value>4000</Value>
+            <Value>1930</Value>
             <ValueType>Length</ValueType>
     </Parameter>
     <Parameter>
@@ -40,7 +40,7 @@
     <Parameter>
             <Name>Width1_1</Name>
             <Text>Wall Height</Text>
-            <Value>2500</Value>
+            <Value>2780</Value>
             <ValueType>Length</ValueType>
     </Parameter>
     <Parameter>
@@ -58,7 +58,7 @@
     <Parameter>
             <Name>Thickness1_1</Name>
             <Text>Wall Thickness</Text>
-            <Value>100.0</Value>
+            <Value>100</Value>
             <ValueType>Length</ValueType>
     </Parameter>
 	
@@ -78,7 +78,7 @@
             <Parameter>
                 <Name>chkb_win</Name>
                 <Text>Windows</Text>
-                <Value>False</Value>
+                <Value>True</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
             <Parameter>
@@ -94,7 +94,7 @@
             <Parameter>
                 <Name>win_x</Name>
                 <Text>Reference Widows from Wall Edge</Text>
-                <Value>500.</Value>
+                <Value>500</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -111,7 +111,7 @@
             <Parameter>
                 <Name>win_z</Name>
                 <Text>Reference Widows Height</Text>
-                <Value>750.</Value>
+                <Value>1000</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -129,7 +129,7 @@
             <Parameter>
                 <Name>win_length</Name>
                 <Text>Window Width</Text>
-                <Value>1000.</Value>
+                <Value>1100</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -146,7 +146,7 @@
             <Parameter>
                 <Name>win_width</Name>
                 <Text>Window Height</Text>
-                <Value>1200.</Value>
+                <Value>1200</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -378,7 +378,7 @@
             <Parameter>
                 <Name>join4_type_active</Name>
                 <Text>Adding Lower Join</Text>
-                <Value>False</Value>
+                <Value>True</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
             <Parameter>
@@ -397,7 +397,7 @@
             <Parameter>
                 <Name>type4_height</Name>
                 <Text>Height</Text>
-                <Value>60</Value>
+                <Value>20</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
@@ -411,7 +411,7 @@
             <Parameter>
                 <Name>type4_depth2</Name>
                 <Text>Depth2</Text>
-                <Value>30</Value>
+                <Value>20</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
@@ -439,7 +439,7 @@
             <Parameter>
                 <Name>shading1_depth</Name>
                 <Text>Shading Depth</Text>
-                <Value>100</Value>
+                <Value>300</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
@@ -453,14 +453,14 @@
             <Parameter>
                 <Name>shading1_thickness</Name>
                 <Text>Shading Thickness</Text>
-                <Value>200</Value>
+                <Value>180</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading1_length</Name>
                 <Text>Shading Length</Text>
-                <Value>1200</Value>
+                <Value>1300</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
@@ -474,21 +474,21 @@
             <Parameter>
                 <Name>shading2_depth</Name>
                 <Text>Shading Depth</Text>
-                <Value>100</Value>
+                <Value>50</Value>
                 <ValueType>Length</ValueType>
                 <Enable>lower_shading_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading2_b</Name>
                 <Text>b</Text>
-                <Value>100</Value>
+                <Value>50</Value>
                 <ValueType>Length</ValueType>
                 <Enable>lower_shading_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading2_thickness</Name>
                 <Text>Shading Thickness</Text>
-                <Value>200</Value>
+                <Value>100</Value>
                 <ValueType>Length</ValueType>
                 <Enable>lower_shading_active == True</Enable>
             </Parameter>
@@ -503,41 +503,41 @@
             <Parameter>
                 <Name>upper_shading_back_active</Name>
                 <Text>Adding Upper Shading Back</Text>
-                <Value>False</Value>
+                <Value>True</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
             <Parameter>
                 <Name>shading_back_depth</Name>
                 <Text>Shading Back Depth</Text>
-                <Value>50</Value>
+                <Value>150</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading_back_l1</Name>
                 <Text>Shading Back Length 1</Text>
-                <Value>3800</Value>
+                <Value>1440</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading_back_l2</Name>
                 <Text>Shading Back Length 2</Text>
-                <Value>3200</Value>
+                <Value>420</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading_back_h1</Name>
                 <Text>hading Back Height 1</Text>
-                <Value>50</Value>
+                <Value>100</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading_back_h2</Name>
                 <Text>hading Back Height 2</Text>
-                <Value>100</Value>
+                <Value>250</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
