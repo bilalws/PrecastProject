@@ -433,7 +433,7 @@
             <Parameter>
                 <Name>upper_shading_active</Name>
                 <Text>Adding Upper Shading</Text>
-                <Value>False</Value>
+                <Value>True</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
             <Parameter>
@@ -468,7 +468,7 @@
             <Parameter>
                 <Name>lower_shading_active</Name>
                 <Text>Adding Lower Shading</Text>
-                <Value>False</Value>
+                <Value>True</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
             <Parameter>

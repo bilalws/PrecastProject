@@ -439,7 +439,7 @@
             <Parameter>
                 <Name>shading1_depth</Name>
                 <Text>Shading Depth</Text>
-                <Value>300/Value>
+                <Value>300</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
@@ -503,7 +503,7 @@
             <Parameter>
                 <Name>upper_shading_back_active</Name>
                 <Text>Adding Upper Shading Back</Text>
-                <Value>False</Value>
+                <Value>True</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
             <Parameter>
