@@ -12,7 +12,7 @@
     <Parameter>
             <Name>Picture1</Name>
             <!-- referencing local image -->
-            <Value>PictureForPalette.png</Value>
+            <Value>PictureForPalette3.png</Value>
             <Orientation>Middle</Orientation>
             <ValueType>Picture</ValueType>
     </Parameter>
@@ -74,6 +74,14 @@
             <Name>Expander</Name>
             <Text>Additional</Text>
             <ValueType>Expander</ValueType>
+
+     <Parameter>
+            <Name>Picture2</Name>
+            <!-- referencing local image -->
+            <Value>PictureForPalette12.png</Value>
+            <Orientation>Middle</Orientation>
+            <ValueType>Picture</ValueType>
+    </Parameter>
 
             <Parameter>
                 <Name>chkb_win</Name>
@@ -221,23 +229,31 @@
     </Page>
     <Page>
         <Name>Page2</Name>
-        <Text>Joins</Text>
+        <Text>Joint</Text>
     <Parameter>
             <Parameter>
             <Name>Expander</Name>
-            <Text>Joins</Text>
+            <Text>Joint</Text>
             <ValueType>Expander</ValueType>
+
+    <Parameter>
+            <Name>Picture3</Name>
+            <!-- referencing local image -->
+            <Value>PictureForPalette021.png</Value>
+            <Orientation>Middle</Orientation>
+            <ValueType>Picture</ValueType>
+    </Parameter>
 
             <Parameter>
                 <Name>join1_type_active</Name>
-                <Text>Adding Join1</Text>
+                <Text>Adding Joint</Text>
                 <Value>False</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
 
             <Parameter>
                 <Name>join1_type</Name>
-                <Text>Join1 Type</Text>
+                <Text>Joint Type</Text>
                 <!-- selected value -->
                 <Value>1</Value>
                 <!-- list of possible values -->
@@ -279,14 +295,14 @@
 
             <Parameter>
                 <Name>join2_type_active</Name>
-                <Text>Adding Join2</Text>
+                <Text>Adding Joint</Text>
                 <Value>False</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
 
             <Parameter>
                 <Name>join2_type</Name>
-                <Text>Join2 Type</Text>
+                <Text>Joint Type</Text>
                 <!-- selected value -->
                 <Value>1</Value>
                 <!-- list of possible values -->
@@ -328,23 +344,12 @@
 
             <Parameter>
                 <Name>join3_type_active</Name>
-                <Text>Adding Upper Join</Text>
+                <Text>Adding Upper Joint</Text>
                 <Value>False</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
 
-            <Parameter>
-                <Name>join3_type</Name>
-                <Text>Upper Join Type</Text>
-                <!-- selected value -->
-                <Value>1</Value>
-                <!-- list of possible values -->
-                <ValueList>1|2|3</ValueList>
-                <!-- list of picture file names -->
-                <ValueList2>param01.png|param02.png|param03.png</ValueList2>
-                <ValueType>PictureButtonList</ValueType>
-                <Enable>join3_type_active == True</Enable>
-            </Parameter>
+            
 
             <Parameter>
                 <Name>type3_length</Name>
@@ -377,23 +382,11 @@
 
             <Parameter>
                 <Name>join4_type_active</Name>
-                <Text>Adding Lower Join</Text>
+                <Text>Adding Lower Joint</Text>
                 <Value>True</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
-            <Parameter>
-                <Name>join4_type</Name>
-                <Text>Lower Join Type</Text>
-                <!-- selected value -->
-                <Value>1</Value>
-                <!-- list of possible values -->
-                <ValueList>1|2|3</ValueList>
-                <!-- list of picture file names -->
-                <ValueList2>param01.png|param02.png|param03.png</ValueList2>
-                <ValueType>PictureButtonList</ValueType>
-                <Enable>join4_type_active == True</Enable>
-            </Parameter>
-
+            
             <Parameter>
                 <Name>type4_height</Name>
                 <Text>Height</Text>
@@ -429,6 +422,14 @@
             <Name>Expander2</Name>
             <Text>Shading</Text>
             <ValueType>Expander</ValueType>
+
+             <Parameter>
+            <Name>Picture4</Name>
+            <!-- referencing local image -->
+            <Value>PictureForPalette022.png</Value>
+            <Orientation>Middle</Orientation>
+            <ValueType>Picture</ValueType>
+            </Parameter>
 
             <Parameter>
                 <Name>upper_shading_active</Name>

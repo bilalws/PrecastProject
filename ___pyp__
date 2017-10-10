@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Element>
     <Script>
-        <Name>PrecastProjectScripts\wall4.py</Name>
-        <Title>wall4</Title>
+        <Name>PrecastProjectScripts\wall2.py</Name>
+        <Title>wall2</Title>
         <Version>1.0</Version>
     </Script>
     <Page>
@@ -12,7 +12,7 @@
     <Parameter>
             <Name>Picture1</Name>
             <!-- referencing local image -->
-            <Value>PictureForPalette.png</Value>
+            <Value>PictureForPalette2.png</Value>
             <Orientation>Middle</Orientation>
             <ValueType>Picture</ValueType>
     </Parameter>
@@ -23,7 +23,7 @@
     <Parameter>
             <Name>Length1_1</Name>
             <Text>Wall Length</Text>
-            <Value>3200</Value>
+            <Value>3140</Value>
             <ValueType>Length</ValueType>
     </Parameter>
     <Parameter>
@@ -75,6 +75,14 @@
             <Text>Additional</Text>
             <ValueType>Expander</ValueType>
 
+    <Parameter>
+            <Name>Picture2</Name>
+            <!-- referencing local image -->
+            <Value>PictureForPalette12.png</Value>
+            <Orientation>Middle</Orientation>
+            <ValueType>Picture</ValueType>
+    </Parameter>
+
             <Parameter>
                 <Name>chkb_win</Name>
                 <Text>Windows</Text>
@@ -94,7 +102,7 @@
             <Parameter>
                 <Name>win_x</Name>
                 <Text>Reference Widows from Wall Edge</Text>
-                <Value>520</Value>
+                <Value>340</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -129,7 +137,7 @@
             <Parameter>
                 <Name>win_length</Name>
                 <Text>Window Width</Text>
-                <Value>2150</Value>
+                <Value>2800</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -221,23 +229,31 @@
     </Page>
     <Page>
         <Name>Page2</Name>
-        <Text>Joins</Text>
+        <Text>Joint</Text>
     <Parameter>
             <Parameter>
             <Name>Expander</Name>
-            <Text>Joins</Text>
+            <Text>Joint</Text>
             <ValueType>Expander</ValueType>
 
             <Parameter>
+            <Name>Picture3</Name>
+            <!-- referencing local image -->
+            <Value>PictureForPalette021.png</Value>
+            <Orientation>Middle</Orientation>
+            <ValueType>Picture</ValueType>
+            </Parameter>
+
+            <Parameter>
                 <Name>join1_type_active</Name>
-                <Text>Adding Join1</Text>
+                <Text>Adding Joint</Text>
                 <Value>False</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
 
             <Parameter>
                 <Name>join1_type</Name>
-                <Text>Join1 Type</Text>
+                <Text>Joint Type</Text>
                 <!-- selected value -->
                 <Value>1</Value>
                 <!-- list of possible values -->
@@ -279,14 +295,14 @@
 
             <Parameter>
                 <Name>join2_type_active</Name>
-                <Text>Adding Join2</Text>
+                <Text>Adding Joint</Text>
                 <Value>False</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
 
             <Parameter>
                 <Name>join2_type</Name>
-                <Text>Join2 Type</Text>
+                <Text>Joint Type</Text>
                 <!-- selected value -->
                 <Value>1</Value>
                 <!-- list of possible values -->
@@ -328,23 +344,12 @@
 
             <Parameter>
                 <Name>join3_type_active</Name>
-                <Text>Adding Upper Join</Text>
+                <Text>Adding Upper Joint</Text>
                 <Value>True</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
 
-            <Parameter>
-                <Name>join3_type</Name>
-                <Text>Upper Join Type</Text>
-                <!-- selected value -->
-                <Value>1</Value>
-                <!-- list of possible values -->
-                <ValueList>1|2|3</ValueList>
-                <!-- list of picture file names -->
-                <ValueList2>param01.png|param02.png|param03.png</ValueList2>
-                <ValueType>PictureButtonList</ValueType>
-                <Enable>join3_type_active == True</Enable>
-            </Parameter>
+            
 
             <Parameter>
                 <Name>type3_length</Name>
@@ -377,22 +382,11 @@
 
             <Parameter>
                 <Name>join4_type_active</Name>
-                <Text>Adding Lower Join</Text>
+                <Text>Adding Lower Joint</Text>
                 <Value>True</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
-            <Parameter>
-                <Name>join4_type</Name>
-                <Text>Lower Join Type</Text>
-                <!-- selected value -->
-                <Value>1</Value>
-                <!-- list of possible values -->
-                <ValueList>1|2|3</ValueList>
-                <!-- list of picture file names -->
-                <ValueList2>param01.png|param02.png|param03.png</ValueList2>
-                <ValueType>PictureButtonList</ValueType>
-                <Enable>join4_type_active == True</Enable>
-            </Parameter>
+            
 
             <Parameter>
                 <Name>type4_height</Name>
@@ -430,6 +424,14 @@
             <Text>Shading</Text>
             <ValueType>Expander</ValueType>
 
+             <Parameter>
+            <Name>Picture4</Name>
+            <!-- referencing local image -->
+            <Value>PictureForPalette022.png</Value>
+            <Orientation>Middle</Orientation>
+            <ValueType>Picture</ValueType>
+             </Parameter>
+
             <Parameter>
                 <Name>upper_shading_active</Name>
                 <Text>Adding Upper Shading</Text>
@@ -460,7 +462,7 @@
             <Parameter>
                 <Name>shading1_length</Name>
                 <Text>Shading Length</Text>
-                <Value>2310</Value>
+                <Value>1200</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
@@ -516,14 +518,14 @@
             <Parameter>
                 <Name>shading_back_l1</Name>
                 <Text>Shading Back Length 1</Text>
-                <Value>2670</Value>
+                <Value>3800</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading_back_l2</Name>
                 <Text>Shading Back Length 2</Text>
-                <Value>1870</Value>
+                <Value>2190</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
