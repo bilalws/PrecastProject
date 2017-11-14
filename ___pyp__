@@ -71,6 +71,23 @@
     </Parameter>
 
     <Parameter>
+            <Name>Rowpic4</Name>
+            <ValueType>Row</ValueType>
+    <Parameter>
+            <Name>Length1_2</Name>
+            <Text>Wall Length2</Text>
+            <Value>1000</Value>
+            <ValueType>Length</ValueType>
+    </Parameter>
+    <Parameter>
+                <Name>ParamPicture4</Name>
+                <!-- referencing local image -->
+                <Value>param04.png</Value>
+                <ValueType>Picture</ValueType>
+            </Parameter>
+    </Parameter>
+
+    <Parameter>
             <Name>Expander</Name>
             <Text>Additional</Text>
             <ValueType>Expander</ValueType>
@@ -148,6 +165,23 @@
             </Parameter>
         	</Parameter>
 
+            <Parameter>
+            <Name>Rowpic6</Name>
+            <ValueType>Row</ValueType>
+            <Parameter>
+                <Name>win_length2</Name>
+                <Text>Window Width2</Text>
+                <Value>760</Value>
+                <ValueType>Length</ValueType>
+            </Parameter>
+            <Parameter>
+                <Name>ParamPicture6</Name>
+                <!-- referencing local image -->
+                <Value>param06.png</Value>
+                <ValueType>Picture</ValueType>
+            </Parameter>
+            </Parameter>
+
         	<Parameter>
             <Name>Rowpic7</Name>
             <ValueType>Row</ValueType>
@@ -164,6 +198,8 @@
                 <ValueType>Picture</ValueType>
             </Parameter>
         	</Parameter>
+
+
 
 
 
@@ -546,5 +582,72 @@
         </Parameter>
     </Parameter>
 
+    </Page>
+
+    <Page>
+        <Name>Page1</Name>
+        <Text>Reinforcement</Text>
+
+        <Parameter>
+                <Name>chkb_rein</Name>
+                <Text>Add Reinforcement</Text>
+                <Value>True</Value>
+                <ValueType>CheckBox</ValueType>
+        </Parameter>
+
+        <Parameter>
+            <Name>ConcreteGrade</Name>
+            <Text>Concrete grade</Text>
+            <Value>4</Value>
+            <ValueType>ReinfConcreteGrade</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>SteelGrade</Name>
+            <Text>Steel grade</Text>
+            <Value>4</Value>
+            <ValueType>ReinfSteelGrade</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>Diameter</Name>
+            <Text>Bar diameter</Text>
+            <Value>10</Value>
+            <ValueType>ReinfBarDiameter</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>ConcreteCover</Name>
+            <Text>Concrete cover</Text>
+            <Value>25</Value>
+            <ValueType>ReinfConcreteCover</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>Distance</Name>
+            <Text>Bar spacing</Text>
+            <Value>200</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>Distance2</Name>
+            <Text>Wiremesh Bar spacing</Text>
+            <Value>200</Value>
+            <ValueType>Length</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>BendingRoller</Name>
+            <Text>Bending roller</Text>
+            <Value>4</Value>
+            <ValueType>ReinfBendingRoller</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>MeshGroup</Name>
+            <Text>Cross-section catalog</Text>
+            <Value>4</Value>
+            <ValueType>ReinfMeshGroup</ValueType>
+        </Parameter>
+        <Parameter>
+            <Name>MeshType</Name>
+            <Text>Meshtype foundation</Text>
+            <Value>-1</Value>
+            <ValueType>ReinfMeshType</ValueType>
+        </Parameter>
     </Page>
 </Element>
