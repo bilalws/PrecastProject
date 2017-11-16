@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Element>
     <Script>
-        <Name>PrecastProjectScripts\wall2.py</Name>
-        <Title>wall2</Title>
+        <Name>PrecastProjectScripts\wall3.py</Name>
+        <Title>wall3</Title>
         <Version>1.0</Version>
     </Script>
     <Page>
@@ -12,7 +12,7 @@
     <Parameter>
             <Name>Picture1</Name>
             <!-- referencing local image -->
-            <Value>PictureForPalette2.png</Value>
+            <Value>PictureForPalette3.png</Value>
             <Orientation>Middle</Orientation>
             <ValueType>Picture</ValueType>
     </Parameter>
@@ -23,7 +23,7 @@
     <Parameter>
             <Name>Length1_1</Name>
             <Text>Wall Length</Text>
-            <Value>3140</Value>
+            <Value>1930</Value>
             <ValueType>Length</ValueType>
     </Parameter>
     <Parameter>
@@ -58,7 +58,7 @@
     <Parameter>
             <Name>Thickness1_1</Name>
             <Text>Wall Thickness</Text>
-            <Value>120</Value>
+            <Value>100</Value>
             <ValueType>Length</ValueType>
     </Parameter>
 	
@@ -76,7 +76,7 @@
     <Parameter>
             <Name>Length1_2</Name>
             <Text>Wall Length2</Text>
-            <Value>1000</Value>
+            <Value>860</Value>
             <ValueType>Length</ValueType>
     </Parameter>
     <Parameter>
@@ -88,11 +88,38 @@
     </Parameter>
 
     <Parameter>
+            <Name>radio_angle_type</Name>
+            <Text>Wall Angle</Text>
+            <!-- selected value -->
+            <Value>1</Value>
+            <ValueType>RadioButtonGroup</ValueType>
+
+            <Parameter>
+                <Name>rad_type1</Name>
+                <Text>30</Text>
+                <Value>1</Value>
+                <ValueType>RadioButton</ValueType>
+            </Parameter>
+            <Parameter>
+                <Name>rad_type2</Name>
+                <Text>45</Text>
+                <Value>2</Value>
+                <ValueType>RadioButton</ValueType>
+            </Parameter>
+            <Parameter>
+                <Name>rad_type3</Name>
+                <Text>60</Text>
+                <Value>3</Value>
+                <ValueType>RadioButton</ValueType>
+            </Parameter>
+        </Parameter>
+
+    <Parameter>
             <Name>Expander</Name>
             <Text>Additional</Text>
             <ValueType>Expander</ValueType>
 
-    <Parameter>
+     <Parameter>
             <Name>Picture2</Name>
             <!-- referencing local image -->
             <Value>PictureForPalette12.png</Value>
@@ -119,7 +146,7 @@
             <Parameter>
                 <Name>win_x</Name>
                 <Text>Reference Widows from Wall Edge</Text>
-                <Value>340</Value>
+                <Value>500</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -154,7 +181,7 @@
             <Parameter>
                 <Name>win_length</Name>
                 <Text>Window Width</Text>
-                <Value>2800</Value>
+                <Value>1100</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -165,30 +192,13 @@
             </Parameter>
         	</Parameter>
 
-            <Parameter>
-            <Name>Rowpic6</Name>
-            <ValueType>Row</ValueType>
-            <Parameter>
-                <Name>win_length2</Name>
-                <Text>Window Width2</Text>
-                <Value>760</Value>
-                <ValueType>Length</ValueType>
-            </Parameter>
-            <Parameter>
-                <Name>ParamPicture6</Name>
-                <!-- referencing local image -->
-                <Value>param06.png</Value>
-                <ValueType>Picture</ValueType>
-            </Parameter>
-            </Parameter>
-
         	<Parameter>
             <Name>Rowpic7</Name>
             <ValueType>Row</ValueType>
             <Parameter>
                 <Name>win_width</Name>
                 <Text>Window Height</Text>
-                <Value>1250</Value>
+                <Value>1200</Value>
                 <ValueType>Length</ValueType>
             </Parameter>
             <Parameter>
@@ -198,8 +208,6 @@
                 <ValueType>Picture</ValueType>
             </Parameter>
         	</Parameter>
-
-
 
 
 
@@ -272,13 +280,13 @@
             <Text>Joint</Text>
             <ValueType>Expander</ValueType>
 
-            <Parameter>
+    <Parameter>
             <Name>Picture3</Name>
             <!-- referencing local image -->
             <Value>PictureForPalette021.png</Value>
             <Orientation>Middle</Orientation>
             <ValueType>Picture</ValueType>
-            </Parameter>
+    </Parameter>
 
             <Parameter>
                 <Name>join1_type_active</Name>
@@ -381,7 +389,7 @@
             <Parameter>
                 <Name>join3_type_active</Name>
                 <Text>Adding Upper Joint</Text>
-                <Value>True</Value>
+                <Value>False</Value>
                 <ValueType>CheckBox</ValueType>
             </Parameter>
 
@@ -397,21 +405,21 @@
             <Parameter>
                 <Name>type3_height</Name>
                 <Text>Height</Text>
-                <Value>50</Value>
+                <Value>60</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join3_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type3_depth1</Name>
                 <Text>Depth1</Text>
-                <Value>60</Value>
+                <Value>50</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join3_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type3_depth2</Name>
                 <Text>Depth2</Text>
-                <Value>50</Value>
+                <Value>30</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join3_type_active == True</Enable>
             </Parameter>
@@ -423,25 +431,24 @@
                 <ValueType>CheckBox</ValueType>
             </Parameter>
             
-
             <Parameter>
                 <Name>type4_height</Name>
                 <Text>Height</Text>
-                <Value>50</Value>
+                <Value>20</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type4_depth1</Name>
                 <Text>Depth1</Text>
-                <Value>70</Value>
+                <Value>50</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>type4_depth2</Name>
                 <Text>Depth2</Text>
-                <Value>60</Value>
+                <Value>20</Value>
                 <ValueType>Length</ValueType>
                 <Enable>join4_type_active == True</Enable>
             </Parameter>
@@ -466,7 +473,7 @@
             <Value>PictureForPalette022.png</Value>
             <Orientation>Middle</Orientation>
             <ValueType>Picture</ValueType>
-             </Parameter>
+            </Parameter>
 
             <Parameter>
                 <Name>upper_shading_active</Name>
@@ -498,7 +505,7 @@
             <Parameter>
                 <Name>shading1_length</Name>
                 <Text>Shading Length</Text>
-                <Value>1200</Value>
+                <Value>1300</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
@@ -547,21 +554,21 @@
             <Parameter>
                 <Name>shading_back_depth</Name>
                 <Text>Shading Back Depth</Text>
-                <Value>130</Value>
+                <Value>150</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading_back_l1</Name>
                 <Text>Shading Back Length 1</Text>
-                <Value>3800</Value>
+                <Value>1440</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>
             <Parameter>
                 <Name>shading_back_l2</Name>
                 <Text>Shading Back Length 2</Text>
-                <Value>2190</Value>
+                <Value>420</Value>
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_back_active == True</Enable>
             </Parameter>

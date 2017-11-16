@@ -467,11 +467,20 @@
                 <ValueType>Length</ValueType>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
+            
+            <Parameter>
+            <Name>custom_shading</Name>
+            <Text>Custom Shading Length</Text>
+            <Value>False</Value>
+            <ValueType>CheckBox</ValueType>
+            </Parameter>
+
             <Parameter>
                 <Name>shading1_length</Name>
                 <Text>Shading Length</Text>
                 <Value>3000</Value>
                 <ValueType>Length</ValueType>
+                <Visible>custom_shading == True</Visible>
                 <Enable>upper_shading_active == True</Enable>
             </Parameter>
 
@@ -507,6 +516,7 @@
                 <Text>Shading Length</Text>
                 <Value>2700</Value>
                 <ValueType>Length</ValueType>
+                <Visible>custom_shading == True</Visible>
                 <Enable>lower_shading_active == True</Enable>
             </Parameter>
 

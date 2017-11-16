@@ -71,6 +71,50 @@
     </Parameter>
 
     <Parameter>
+            <Name>Rowpic4</Name>
+            <ValueType>Row</ValueType>
+    <Parameter>
+            <Name>Length1_2</Name>
+            <Text>Wall Length2</Text>
+            <Value>860</Value>
+            <ValueType>Length</ValueType>
+    </Parameter>
+    <Parameter>
+                <Name>ParamPicture4</Name>
+                <!-- referencing local image -->
+                <Value>param04.png</Value>
+                <ValueType>Picture</ValueType>
+            </Parameter>
+    </Parameter>
+
+    <Parameter>
+            <Name>radio_angle_type</Name>
+            <Text>Wall Angle</Text>
+            <!-- selected value -->
+            <Value>1</Value>
+            <ValueType>RadioButtonGroup</ValueType>
+
+            <Parameter>
+                <Name>rad_type1</Name>
+                <Text>30</Text>
+                <Value>1</Value>
+                <ValueType>RadioButton</ValueType>
+            </Parameter>
+            <Parameter>
+                <Name>rad_type2</Name>
+                <Text>45</Text>
+                <Value>2</Value>
+                <ValueType>RadioButton</ValueType>
+            </Parameter>
+            <Parameter>
+                <Name>rad_type3</Name>
+                <Text>60</Text>
+                <Value>3</Value>
+                <ValueType>RadioButton</ValueType>
+            </Parameter>
+        </Parameter>
+
+    <Parameter>
             <Name>Expander</Name>
             <Text>Additional</Text>
             <ValueType>Expander</ValueType>
